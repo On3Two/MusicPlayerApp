@@ -69,6 +69,7 @@ body{
 
 .player-img:hover img{
     box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.8);
+    transform: scale(1.03);
 }
 
 .player-img img.active{
@@ -86,10 +87,10 @@ h2{
 }
 
 h3{
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    font-weight: 450;
-    margin: 10px 0 0;
+    font-weight: 500;
+    margin: 5px 0 0;
 }
 
 .player-progress{
@@ -134,5 +135,13 @@ h3{
 }
 
 .fa-solid:hover{
-    filter: brightness(40%)
+    filter: brightness(40%);
+    transform: scale(1.1);
+    
+}
+
+.play-button{
+    font-size: 44px;
+    position: relative;
+    top: 3px;
 }
